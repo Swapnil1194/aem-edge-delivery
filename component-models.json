@@ -187,22 +187,49 @@
     ]
   },
   {
-  "id": "quote",
-  "fields": [
-     {
-       "component": "text-area",
-       "name": "quote",
-       "value": "",
-       "label": "Quote",
-       "valueType": "string"
-     },
-     {
-       "component": "text-input",
-       "valueType": "string",
-       "name": "author",
-       "label": "Author",
-       "value": ""
-     }
-   ]
-}
+    "id": "quote",
+    "fields": [
+      {
+        "component": "text-area",
+        "name": "quote",
+        "value": "",
+        "label": "Quote",
+        "valueType": "string"
+      },
+      {
+        "component": "text-input",
+        "valueType": "string",
+        "name": "author",
+        "label": "Author",
+        "value": ""
+      }
+    ]
+  },
+  {
+    "id": "teaser",
+    "fields" : [
+      {
+        "component" : "reference",
+        "valueType" : "string",
+        "name" : "image",
+        "label" : "Background image",
+        "multi" : false
+      },
+      {
+        "component": "text",
+        "name" : "pretitle",
+        "value" : "",
+        "label" : "Pre title",
+        "valueType" : "string"
+      },
+      {
+        "component": "text",
+        "name" : "title",
+        "value" : "",
+        "label" : "Title",
+        "valueType" : "string"
+      }
+    ]
+  }
 ]
+

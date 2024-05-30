@@ -152,8 +152,24 @@
             }
           }
         }
+        },
+        {
+          "title": "teaser",
+          "id": "teaser",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/section/v1/block",
+                "template": {
+                  "name": "Teaser",
+                  "model": "teaser"
+                }
+              }
+            }
+          }
         }
       ]
     }
   ]
 }
+
