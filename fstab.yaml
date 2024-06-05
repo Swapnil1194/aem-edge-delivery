@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p121220-e1183538.adobeaemcloud.com/bin/franklin.delivery/Swapnil1194/aem-edge-delivery/main"
+    url: "https://author-p133703-e1305981.adobeaemcloud.com/bin/franklin.delivery/Swapnil1194/aem-edge-delivery/main"
     type: "markup"
     suffix: ".html"
